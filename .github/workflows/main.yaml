@@ -55,7 +55,7 @@ jobs:
       - name: cleanup
         run: |
           docker stop mlflow-server \
-          docker remove mlflow-server \
+          docker rm mlflow-server \
           docker rmi ghcr.io/mlflow/mlflow:latest
 
       - name: Login to Docker Hub
