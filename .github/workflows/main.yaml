@@ -75,7 +75,7 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: sachin3321/fastapi:latest
+          tags: sachin33213/fastapi:latest
           context: "."
           file: "dockerfile"
           
